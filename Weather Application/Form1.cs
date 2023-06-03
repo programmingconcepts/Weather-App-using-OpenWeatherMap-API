@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using Newtonsoft.Json;
+using System;
 using System.Net;
+using System.Windows.Forms;
 
 namespace Weather_Application
 {
@@ -19,7 +12,7 @@ namespace Weather_Application
             InitializeComponent();
         }
 
-        string API = "e6dda21fc3786c71e5b0d2cbce52bedc";
+        string API = "Your API Key Here";
 
         private void btnGo_Click(object sender, EventArgs e)
         {
